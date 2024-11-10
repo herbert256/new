@@ -1,0 +1,87 @@
+<h3>
+  Random vs shuffle
+</h3>
+<p></p>
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <th bgcolor="#DDDDDD">
+      HTML
+    </th>
+    <th bgcolor="#DDDDDD">
+      RESULT
+    </th>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font></font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> shuffle</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A I S V D W E Z Q N P L Y J H C T O K B M G F R U X<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> shuffle<font color="black">,</font> sort</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> random</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->O C H M T C A L V T F X B L B H V P T X C U H W Z L<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> random<font color="black">,</font> sort</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A B D D D F G H I I L N O O Q R S T U V V W W Y Y Z<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> random<font color="black">,</font> unique<font color="black">,</font> sort</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A D F G H I L M N O Q T V W Y Z<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> random<font color="black">,</font> dedup<font color="black">,</font> sort</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A C D F G I L N O P Q R T U V W X Y Z<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align:top">
+      <!-- START DEMO SOURCE -->
+      <pre><code style="color: #000000"><b>{<font color="blue">sequence </font><font color="red"><font color="black">'</font>A..Z<font color="black">'</font><font color="black">,</font> reverse<font color="black">,</font> sort</font>}</b><br>  <b>{<font color="green"><font color="red">$</font>sequence</font>}</b><br><b>{/<font color="blue">sequence</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+    </td>
+    <td style="vertical-align:top">
+      <code><span style="color: #000000"><!-- START DEMO RESULT -->A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<!-- END DEMO RESULT --></span></code>
+    </td>
+  </tr>
+</table>
+<p></p>

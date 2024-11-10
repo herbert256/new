@@ -1,0 +1,2 @@
+sequence/entry/actionDouble
+sequence/entry/actionSingle

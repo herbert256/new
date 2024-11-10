@@ -1,0 +1,7 @@
+{table}
+
+{demo}{sequence 15, hexagonal}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

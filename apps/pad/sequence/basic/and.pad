@@ -1,0 +1,11 @@
+{table}
+
+{demo}{sequence 15}
+  {$sequence}
+{/sequence}{/demo}
+
+{demo}{sequence 15, and=4}
+  {$sequence}
+{/sequence}{/demo}
+
+{/table}

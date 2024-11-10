@@ -1,0 +1,4 @@
+sequence/basic/repeat
+sequence/operation/double/repeat
+sequence/operation/single/repeat
+sequence/specials/other

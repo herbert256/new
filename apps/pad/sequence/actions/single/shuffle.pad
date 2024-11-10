@@ -1,0 +1,15 @@
+{table}
+
+{demo}{sequence 'A..Z'}
+  {$sequence}
+{/sequence }{/demo}
+
+{demo}{sequence 'A..Z', shuffle}
+  {$sequence}
+{/sequence }{/demo}
+
+{demo}{sequence 'A..Z', shuffle, sort}
+  {$sequence}
+{/sequence }{/demo}
+
+{/table}
