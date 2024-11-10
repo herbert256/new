@@ -1,5 +1,7 @@
 <?php
 
-  return include PAD . "sequence/types/oeis/files/$padSeqParm.php";
+  include_once '/pad/sequence/types/oeis/oeis.php';
+
+  return OEIS [$padSeqParm];
 
 ?>
