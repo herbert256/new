@@ -1,9 +1,9 @@
 <?php
 
-  include_once PAD . 'sequence/types/oeis/oeis.php';
+  $padOEIS = include PAD . "sequence/types/oeis/files/$padSeqParm.php";
 
-  if ( isset ( OEIS [$padSeqParm] [$padSeqLoop-1] ) )
-    return OEIS [$padSeqParm] [$padSeqLoop-1];
+  if ( isset ( $padOEIS [$padSeqLoop-1] ) )
+    return $padOEIS [$padSeqLoop-1];
   else
     return FALSE;
 
