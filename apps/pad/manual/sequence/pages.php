@@ -9,6 +9,6 @@
     if ( ! str_starts_with ( $value, 'sequence/' ) )
       unset ( $go [$key] );
 
-  $title = "sequence - $type - $item";
+  $title = "sequence - Xref - $type - $item";
 
 ?>

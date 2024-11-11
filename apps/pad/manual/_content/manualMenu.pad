@@ -39,7 +39,6 @@
 
 <h3 align=center>Miscellaneous</h3>
 <ul>
-  <li>{manual 'sequence'}               </li>
   <li>{manual 'table_fun'}              </li>
   <li>{manual '3_ways_to_make_a_table'} </li>
   <li>{manual 'classicModels'}          </li>
