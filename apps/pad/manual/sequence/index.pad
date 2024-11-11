@@ -1,27 +1,73 @@
 {block}
-  <p>The sequence sub system of PAD, many many ways to get a sequence of numbers.</p>
+
+<p>The sequence sub-system of PAD, many many ways to get a sequence of numbers.</p>
+
 {/block}
 
+<hr>
+
+<h3>Concepts</h2>
+
+{block}
+
+<p>There are 5 Sequence concepts
+
+<table border=1>
+<tr><td>sequence</td><td>Something that defines a sequence list</td></tr>
+<tr><td>store</td><td>A stored sequence list</td></tr>
+<tr><td>operation</td><td>A sequence executed on a seqence list entry</td></tr>
+<tr><td>action</td><td>An operation executed on a sequence list</td></tr>
+<tr><td>one</td><td>An action that reducces a sequence list to a single value</td></tr>
+</table>
+
+{/block}
+
+<h3>Sequence</h2>
+
+{block}
+
+A sequence defines a list of items that are together a sequence list.<br>
+Below the range/even/prime sequences.
+
 {table}
-
-{demo}{sequence 10}
-  {$sequence} 
-{/sequence}{/demo}
-
-{demo}{sequence '1..10'}
-  {$sequence} 
-{/sequence}{/demo}
-
-{demo}{sequence '1;2;3;4;5;6;7;8;9;10'}
-  {$sequence} 
-{/sequence}{/demo}
-
-{demo}{sequence from=1, to=10}
-  {$sequence} 
-{/sequence}{/demo}
-
-{demo}{sequence rows=10}
-  {$sequence} 
-{/sequence}{/demo}
-
+{demo}{sequence range='20..30'} {$range} {/sequence}{/demo}
+{demo}{sequence even, rows=10}  {$even}  {/sequence}{/demo}
+{demo}{sequence prime, rows=10} {$prime} {/sequence}{/demo}
 {/table}
+
+{/block}
+
+<h3>Stores</h2>
+
+{block}
+
+Stores are stored sequence lists
+
+{table}
+{demo}{sequence range='20..30', store='mySeq'} {/demo}
+{demo}{mySeq} 
+  {$mySeq} 
+{/mySeq}{/demo}
+{/table}
+
+{/block}
+
+<h3>Operations</h2>
+
+{block}
+
+Operations are a sequence that is executed on a list entry when building the list.
+
+<h3>Actions</h2>
+
+{block}
+
+Actions operate on a sequence list after the list is build.
+
+{/block}
+
+<h3>Ones</h2>
+
+Executing a 'one' on a sequence will reduce the sequence to a single value.
+
+{/block}

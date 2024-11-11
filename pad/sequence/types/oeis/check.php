@@ -2,14 +2,14 @@
 
   function padSeqCheckOeis ( $f, $n ) {
 
-    if ( file_exists ( '/pad/sequence/types/oeis/bool.php' ) )
+    if ( file_exists ( PAD . 'sequence/types/oeis/bool.php' ) )
       return padSeqBoolOeis ( $n );
 
-    if ( file_exists ( '/pad/sequence/types/oeis/generated.php' ) ) 
+    if ( file_exists ( PAD . 'sequence/types/oeis/generated.php' ) ) 
       return in_array ( $n, PADoeis );
 
-    if ( file_exists ( '/pad/sequence/types/oeis/fixed.php' ) ) {
-      $fixed = include '/pad/sequence/types/oeis/fixed.php';
+    if ( file_exists ( PAD . 'sequence/types/oeis/fixed.php' ) ) {
+      $fixed = include PAD . 'sequence/types/oeis/fixed.php';
       return in_array ( $n, $fixed );
 
     }

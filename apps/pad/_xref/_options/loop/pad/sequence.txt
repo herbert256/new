@@ -46,3 +46,4 @@ sequence/keepRemove/tetrahedral
 sequence/keepRemove/triangular
 sequence/operation/single/loop
 sequence/specials/loop
+test

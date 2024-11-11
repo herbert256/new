@@ -1,5 +1,11 @@
 <?php
 
+  if ( $padSeqSeq == 'operation' ) {
+    $padExplode  = explode ('|', $padPrmValue, 2); 
+    $padSeqSeq   = $padExplode [0] ?? '';
+    $padPrmValue = $padExplode [1] ?? '';
+  }
+
   if ( $padPrmValue and isset ( $padSeqStore [$padPrmValue] ) 
     and file_exists ( PAD . "sequence/types/$padSeqSeq/flags/operationDouble") ) 
 

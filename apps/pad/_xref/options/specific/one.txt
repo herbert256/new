@@ -12,3 +12,4 @@ sequence/one/product
 sequence/one/random
 sequence/one/sum
 sequence/specials/names
+test

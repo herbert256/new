@@ -47,3 +47,4 @@ sequence/specials/keepRemove
 sequence/specials/loop
 sequence/specials/loop_source
 sequence/specials/make
+test

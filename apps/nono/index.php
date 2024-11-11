@@ -2,7 +2,6 @@
 
   $a = [];
 
-  if ( empty($a) )
-    echo 'yeah';
+  aa();
 
 ?>
