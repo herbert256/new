@@ -1,2 +1,4 @@
 sequence/basic/bell
 sequence/specials/named
+seq/basic/bell
+seq/specials/named

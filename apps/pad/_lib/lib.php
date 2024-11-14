@@ -1,7 +1,7 @@
 <?php
 
 
-  function seqDir ( $dir )  {
+  function sequenceDir ( $dir )  {
   
     $out = [];
 

@@ -16,7 +16,7 @@
 <tr><td>sequences</td><td>Something that defines a sequence list</td></tr>
 <tr><td>options</td><td>Options control aspects of a sequence list</td></tr>
 <tr><td>store</td><td>A stored sequence list</td></tr>
-<tr><td>operations</td><td>A sequence executed on a seqence list entry</td></tr>
+<tr><td>operations</td><td>A sequence executed on a sequenceence list entry</td></tr>
 <tr><td>actions</td><td>An operation executed on a sequence list</td></tr>
 <tr><td>one</td><td>An action that reducces a sequence list to a single value</td></tr>
 </table>
@@ -28,7 +28,7 @@
 {block}
 
 A sequence defines a list of items that are together a sequence list.<br>
-in from below 3 examples, range/even/prime are sequences.
+in below 3 examples range/even/prime are sequences.
 
 {table}
 {demo}{sequence range='20..30'} {$range} {/sequence}{/demo}
@@ -43,7 +43,7 @@ in from below 3 examples, range/even/prime are sequences.
 {block}
 
 Options control aspects of a sequence list, <br>
-in from below 2 examples, from/to/rows/random/max are options.
+in below 2 examples from/to/rows/random/max are options.
 
 {table}
 {demo}{sequence even, from=20, to=30 }
@@ -75,8 +75,8 @@ Stores are stored sequence lists in from below example, mySeq is a store.
 
 {block}
 
-Operations are a sequence that is executed on a list entry when building the list<br>
-in from below 2 examples, even/add are options.
+Operations are a sequence that is executed on a sequence list entry when building the list<br>
+in below 2 examples even/add are operations.
 
 {table}
 {demo}{sequence range='20..30', store='mySeq'} {/demo}
@@ -95,7 +95,7 @@ in from below 2 examples, even/add are options.
 {block}
 
 Actions operate on a sequence list after the list is build,<br>
-in from below 2 examples, shuffle/reverse are options.
+in below 2 examples shuffle/reverse are actions.
 
 {table}
 {demo}{sequence range='20..30', store='mySeq'} {/demo}
@@ -114,7 +114,7 @@ in from below 2 examples, shuffle/reverse are options.
 {block}
 
 Executing a 'one' on a sequence list will reduce the sequence list to a single value,<br>
-in from below 2 examples, first/sum are options.
+in from below 2 examples, first/sum are ones.
 
 {table}
 {demo}{sequence range='20..30', store='mySeq'} {/demo}

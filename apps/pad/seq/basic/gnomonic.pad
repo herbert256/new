@@ -1,0 +1,7 @@
+{table}
+
+{demo}{seq 15, gnomonic}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

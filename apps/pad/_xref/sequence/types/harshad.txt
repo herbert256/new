@@ -1,2 +1,4 @@
 sequence/basic/harshad
 sequence/specials/named
+seq/basic/harshad
+seq/specials/named

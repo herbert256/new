@@ -1,2 +1,4 @@
 sequence/keepRemove/cubic
 sequence/operation/single/cubic
+seq/keepRemove/cubic
+seq/operation/single/cubic

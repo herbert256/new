@@ -15,3 +15,8 @@ sequence/specials/first_last_vs_shift_pop
 sequence/store/actions/difference
 tags/if_1
 tags/if_2
+seq/actions/double/difference
+seq/actions/single/shift
+seq/specials/double
+seq/specials/first_last_vs_shift_pop
+seq/store/actions/difference

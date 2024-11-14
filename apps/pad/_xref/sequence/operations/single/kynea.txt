@@ -1,2 +1,4 @@
 sequence/keepRemove/kynea
 sequence/operation/single/kynea
+seq/keepRemove/kynea
+seq/operation/single/kynea

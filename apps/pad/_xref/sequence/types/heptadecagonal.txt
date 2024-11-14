@@ -1,2 +1,4 @@
 sequence/basic/heptadecagonal
 sequence/specials/figurate
+seq/basic/heptadecagonal
+seq/specials/figurate

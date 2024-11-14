@@ -1,0 +1,11 @@
+{table}
+
+{demo}{seq 5, even}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq 5, even, pronic}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

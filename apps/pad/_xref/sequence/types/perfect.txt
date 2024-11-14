@@ -1,2 +1,4 @@
 sequence/basic/perfect
 sequence/specials/prime_or_not
+seq/basic/perfect
+seq/specials/prime_or_not

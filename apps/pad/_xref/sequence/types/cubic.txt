@@ -1,2 +1,4 @@
 sequence/basic/cubic
 sequence/specials/figurate
+seq/basic/cubic
+seq/specials/figurate

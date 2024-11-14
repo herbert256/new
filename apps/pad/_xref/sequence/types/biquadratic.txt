@@ -1,2 +1,4 @@
 sequence/basic/biquadratic
 sequence/specials/figurate
+seq/basic/biquadratic
+seq/specials/figurate

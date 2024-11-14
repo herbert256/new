@@ -55,7 +55,7 @@
             <td style="vertical-align:top">{!exampleSrcPad} </td>
           {/if}
           {if ! #skipResult}
-            <td style="vertical-align:top">{ajax '{$examplePage}'}</td>
+            <td style="vertical-align:top">{page '{$examplePage}', sandbox}</td>
           {/if}
         </tr>
 
@@ -91,7 +91,7 @@
           <td style="vertical-align:top">{!exampleSrcPad}</td>
         {/if}
         {if ! #skipResult}
-          <td style="vertical-align:top">{ajax '{$examplePage}'}</td>
+          <td style="vertical-align:top">{page '{$examplePage}', sandbox}</td>
         {/if}
       </tr>
 

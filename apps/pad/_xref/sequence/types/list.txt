@@ -15,3 +15,4 @@ sequence/store/actions/merge
 sequence/store/actions/onlyNow
 sequence/store/actions/onlyStore
 sequence/store/actions/prepend
+seq/basic/list

@@ -1,2 +1,4 @@
 sequence/keepRemove/negation
 sequence/operation/single/negation
+seq/keepRemove/negation
+seq/operation/single/negation

@@ -1,0 +1,178 @@
+
+<h3>Syntax</h3>
+
+{block}
+
+<br><p>There are 5 PAD tags for Sequences
+
+{table}{demo}
+
+{seq loop, from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{operation add=4, mySeq} {$seq} {/operation}
+
+{/demo}{demo}
+
+{store mySeq} {$seq} {/store}
+
+{/demo}{demo}
+
+{action reverse, mySeq}  {$seq} {/action}
+
+{/demo}{demo}
+
+{one average, mySeq} {$seq} {/one}
+
+{/demo}{/table}
+
+{/block}
+
+<br>{block}
+
+<br><p>There are also 5 type definition for Sequences.
+
+{table}{demo}
+
+{seq:loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{operation:add 4, mySeq} {$seq} {/operation:add}
+
+{/demo}{demo}
+
+{store:mySeq} {$seq} {/store:mySeq}
+
+{/demo}{demo}
+
+{action:reverse mySeq} {$seq} {/action:reverse}
+
+{/demo}{demo}
+
+{one:average mySeq}   {$seq} {/one:average}
+
+{/demo}{/table}
+
+{/block}
+
+<br>{block}
+
+<br><p>Excect for operations seq items can be used direct, 
+<br>however there are name collisions that force to use one of the 2 above constructs.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq} {$seq} {/mySeq}
+
+{/demo}{demo}
+
+{reverse mySeq} {$seq} {/reverse}
+
+{/demo}{demo}
+
+{average mySeq} {$seq} {/average}
+
+{/demo}
+
+{/table}
+
+{/block}
+
+<br>{block}
+
+<br><p>operations/actions/ones can be added as options to a seq tag
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq operation='even'} {$seq} {/mySeq}
+
+{/demo}{demo}
+
+{mySeq action='shuffle'} {$seq} {/mySeq}
+
+{/demo}{demo} 
+
+{mySeq one='average'} {$seq} {/mySeq}
+
+{/demo}
+
+{/table}
+
+{/block}
+
+<br>{block}
+
+<br><p>operation/actions/ones can be added as a parameter to a seq tag,<br>
+but naming conflicts are possible and then above option way must be used.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq even} {$seq} {/mySeq}
+
+{/demo}{demo}
+
+{mySeq shuffle} {$seq} {/mySeq}
+
+{/demo}{demo} 
+
+{mySeq average} {$seq} {/mySeq}
+
+{/demo}
+
+{/table}
+
+{/block}
+
+
+<br>{block}
+
+<br><p>operation/actions/ones can be used in a chain.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq even, multiply=10, shuffle} {$seq} {/mySeq}
+
+{/demo}{demo}
+
+{/table}
+
+{/block}
+
+<br>{block}
+
+<br><p>when an operation/action/one, that is used as an option, has a parameter<br>
+use a '|' to give the parameter.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq operation='multiply|10'} {$seq} {/mySeq}
+
+{/demo}{demo}
+
+{/demo}
+
+{/table}
+
+{/block}

@@ -1,2 +1,4 @@
 sequence/basic/lucky
 sequence/specials/other
+seq/basic/lucky
+seq/specials/other

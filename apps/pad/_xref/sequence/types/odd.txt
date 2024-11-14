@@ -1,3 +1,6 @@
 sequence/basic/odd
 sequence/operation/single/even
 sequence/specials/even_odd
+seq/basic/odd
+seq/operation/single/even
+seq/specials/even_odd

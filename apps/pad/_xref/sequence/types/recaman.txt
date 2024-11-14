@@ -1,2 +1,4 @@
 sequence/basic/recaman
 sequence/specials/named
+seq/basic/recaman
+seq/specials/named

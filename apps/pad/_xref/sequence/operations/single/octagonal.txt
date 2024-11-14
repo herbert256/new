@@ -1,2 +1,4 @@
 sequence/keepRemove/octagonal
 sequence/operation/single/octagonal
+seq/keepRemove/octagonal
+seq/operation/single/octagonal

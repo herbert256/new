@@ -1,2 +1,4 @@
 sequence/basic/decagonal
 sequence/specials/figurate
+seq/basic/decagonal
+seq/specials/figurate

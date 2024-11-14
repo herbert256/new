@@ -18,6 +18,8 @@
   $padSeqName      = $padPrm [$pad] ['name']   ?? ''; 
   $padSeqToData    = $padPrm [$pad] ['toData'] ?? ''; 
   $padSeqStoreName = $padPrm [$pad] ['store']  ?? '';
+  $padSeqSet       = $padPrm [$pad] ['set']    ?? ''; 
+  $padSeqGet       = $padPrm [$pad] ['get']    ?? ''; 
    
    if ( $padSeqMin === TRUE ) $padSeqMin = PHP_INT_MIN;
    if ( $padSeqMax === TRUE ) $padSeqMax = PHP_INT_MAX;

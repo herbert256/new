@@ -1,2 +1,4 @@
 sequence/basic/powerful
 sequence/specials/other
+seq/basic/powerful
+seq/specials/other

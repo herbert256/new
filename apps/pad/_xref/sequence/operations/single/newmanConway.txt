@@ -1,2 +1,4 @@
 sequence/keepRemove/newmanConway
 sequence/operation/single/newmanConway
+seq/keepRemove/newmanConway
+seq/operation/single/newmanConway

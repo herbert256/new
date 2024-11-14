@@ -1,2 +1,4 @@
 sequence/basic/gould
 sequence/specials/named
+seq/basic/gould
+seq/specials/named

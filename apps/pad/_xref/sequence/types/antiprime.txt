@@ -1,2 +1,4 @@
 sequence/basic/antiprime
 sequence/specials/prime_or_not
+seq/basic/antiprime
+seq/specials/prime_or_not

@@ -3,3 +3,5 @@ sequence/operation/single/even
 sequence/specials/keepRemove
 sequence/specials/make
 test
+seq/keepRemove/even
+seq/operation/single/even

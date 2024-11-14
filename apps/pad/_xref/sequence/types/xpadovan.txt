@@ -1,2 +1,4 @@
 sequence/basic/xpadovan
 sequence/specials/named
+seq/basic/xpadovan
+seq/specials/named

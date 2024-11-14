@@ -1,36 +1,4 @@
 
-<p>There are 5 Sequence elements
-
-<table border=1>
-<tr><td>sequence</td><td>Something that defines a sequence list</td></tr>
-<tr><td>operation</td><td>A sequence executed on a seqence list entry</td></tr>
-<tr><td>action</td><td>An operation executed on a sequence list</td></tr>
-<tr><td>store</td><td>A stored sequence list</td></tr>
-<tr><td>one</td><td>An action that reducces a sequence list to a single value</td></tr>
-</table>
-
-<h3>Sequences</h2>
-
-A sequence defines a list of items that are together a sequence list.
-
-<h3>Operations</h2>
-
-Operations are a sequence that is executed on a list entry when building the list.
-
-<h3>Actions</h2>
-
-Actions operate on a sequence list after the list is build.
-
-<h3>Ones</h2>
-
-Executing a 'one' on a sequence will reduce the sequence to a single value.
-
-<h3>Stores</h2>
-
-Stores are stored sequence lists
-
-<p>There are 5 PAD tags for Sequences
-
 {table}{demo}
 
 {sequence loop, from=10, to=20, name='mySeq'}
@@ -38,10 +6,6 @@ Stores are stored sequence lists
 {/demo}{demo}
 
 {operation add=4, mySeq} {$sequence} {/operation}
-
-{/demo}{demo}
-
-{store mySeq} {$sequence} {/store}
 
 {/demo}{demo}
 
@@ -53,7 +17,27 @@ Stores are stored sequence lists
 
 {/demo}{/table}
 
-<p>There are also 5 type definition for Sequences.
+
+
+{table}{demo}
+
+{sequence loop, from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{operation mySeq, add=4} {$sequence} {/operation}
+
+{/demo}{demo}
+
+{action mySeq, reverse}  {$sequence} {/action}
+
+{/demo}{demo}
+
+{one mySeq, average} {$sequence} {/one}
+
+{/demo}{/table}
+
+
 
 {table}{demo}
 
@@ -61,87 +45,26 @@ Stores are stored sequence lists
 
 {/demo}{demo}
 
-{operation:add 4, mySeq} {$sequence} {/operation:add}
+{operation:add 4, mySeq, even} {$sequence} {/operation:add}
 
 {/demo}{demo}
 
-{store:mySeq} {$sequence} {/store:mySeq}
+{operation:add 4, even, mySeq} {$sequence} {/operation:add}
 
 {/demo}{demo}
 
-{action:reverse mySeq} {$sequence} {/action:reverse}
+{action:reverse mySeq, even} {$sequence} {/action:reverse}
 
 {/demo}{demo}
 
-{one:average mySeq}   {$sequence} {/one:average}
+{action:reverse even, mySeq} {$sequence} {/action:reverse}
+
+{/demo}{demo}
+
+{one:average mySeq, even}   {$sequence} {/one:average}
+
+{/demo}{demo}
+
+{one:average even, mySeq}   {$sequence} {/one:average}
 
 {/demo}{/table}
-
-<p>Excect for operations sequence items can be used direct, however there are name colusons that force to use one of the 2 above constructs.
-
-{table}{demo}
-
-{loop from=10, to=20, name='mySeq'}
-
-{/demo}{demo}
-
-{mySeq} {$sequence} {/mySeq}
-
-{/demo}{demo}
-
-{reverse mySeq} {$sequence} {/reverse}
-
-{/demo}{demo}
-
-{average mySeq} {$sequence} {/average}
-
-{/demo}
-
-{/table}
-
-
-<p>A operation/action/one can be added as options to a sequence tag
-
-{table}{demo}
-
-{loop from=10, to=20, name='mySeq'}
-
-{/demo}{demo}
-
-{mySeq operation='even'} {$sequence} {/mySeq}
-
-{/demo}{demo}
-
-{mySeq action='shuffle'} {$sequence} {/mySeq}
-
-{/demo}{demo} 
-
-{mySeq one='max'} {$sequence} {/mySeq}
-
-{/demo}
-
-{/table}
-
-<p>A operation/action/one can be added as a parameter sequence tag (but naming conflicts are possible and then above option way must be used)
-
-{table}{demo}
-
-{loop from=10, to=20, name='mySeq'}
-
-{/demo}{demo}
-
-{mySeq even} {$sequence} {/mySeq}
-
-{/demo}{demo}
-
-{mySeq shuffle} {$sequence} {/mySeq}
-
-{/demo}{demo} 
-
-{mySeq average} {$sequence} {/mySeq}
-
-{/demo}
-
-{/table}
-
-

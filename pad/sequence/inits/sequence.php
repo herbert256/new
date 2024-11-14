@@ -1,5 +1,15 @@
 <?php
 
+  if ( $padSeqGet) {
+    $padSeqSeq = $padSeqGet;
+    return include PAD . 'sequence/inits/sequence/store.php';
+  }
+
+  foreach ( $padOptionsSingle as $padSeqSeq => $padPrmValue )
+    if ( $padPrmValue === TRUE and isset ( $padSeqStore [$padSeqSeq] ) ) 
+      if ( ! isset ( $padSeqNoNo [$padSeqSeq] ) ) 
+        return include PAD . 'sequence/inits/sequence/store.php';
+
   if ( $padSeqSetSeq or $padSeqSetStore )
     return include PAD . 'sequence/inits/sequence/set.php';
 
@@ -27,7 +37,7 @@
         return include PAD . 'sequence/inits/sequence/type.php';
 
     }
-
+  
   return include PAD . 'sequence/inits/sequence/loop.php';
- 
+
 ?>

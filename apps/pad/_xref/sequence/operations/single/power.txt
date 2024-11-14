@@ -1,3 +1,5 @@
 sequence/operation/single/power
 sequence/specials/loop_source
 sequence/specials/random
+seq/operation/single/power
+seq/specials/random

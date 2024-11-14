@@ -1,3 +1,4 @@
+
 <h3>Syntax</h3>
 
 {block}
@@ -10,15 +11,11 @@
 
 {/demo}{demo}
 
-{operation add=4, mySeq} 
-  {$sequence}
-{/operation}
+{operation add=4, mySeq} {$sequence} {/operation}
 
 {/demo}{demo}
 
-{store mySeq}
-  {$sequence}
-{/store}
+{store mySeq} {$sequence} {/store}
 
 {/demo}{demo}
 
@@ -62,8 +59,8 @@
 
 <br>{block}
 
-<br><p>Excect for operations items can be used direct, 
-<br>however there are name colusons that force to use one of the 2 above constructs.
+<br><p>Excect for operations sequence items can be used direct, 
+<br>however there are name collisions that force to use one of the 2 above constructs.
 
 {table}{demo}
 
@@ -89,7 +86,7 @@
 
 <br>{block}
 
-<br><p>A operation/action/one can be added as options to a sequence tag
+<br><p>operations/actions/ones can be added as options to a sequence tag
 
 {table}{demo}
 
@@ -105,7 +102,7 @@
 
 {/demo}{demo} 
 
-{mySeq one='max'} {$sequence} {/mySeq}
+{mySeq one='average'} {$sequence} {/mySeq}
 
 {/demo}
 
@@ -115,7 +112,7 @@
 
 <br>{block}
 
-<br><p>A operation/action/one can be added as a parameter sequence tag,<br<
+<br><p>operation/actions/ones can be added as a parameter to a sequence tag,<br>
 but naming conflicts are possible and then above option way must be used.
 
 {table}{demo}
@@ -133,6 +130,46 @@ but naming conflicts are possible and then above option way must be used.
 {/demo}{demo} 
 
 {mySeq average} {$sequence} {/mySeq}
+
+{/demo}
+
+{/table}
+
+{/block}
+
+
+<br>{block}
+
+<br><p>operation/actions/ones can be used in a chain.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq even, multiply=10, shuffle} {$sequence} {/mySeq}
+
+{/demo}{demo}
+
+{/table}
+
+{/block}
+
+<br>{block}
+
+<br><p>when an operation/action/one, that is used as an option, has a parameter<br>
+use a '|' to give the parameter.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{mySeq operation='multiply|10'} {$sequence} {/mySeq}
+
+{/demo}{demo}
 
 {/demo}
 

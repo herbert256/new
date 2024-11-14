@@ -1,2 +1,4 @@
 sequence/keepRemove/hexagonal
 sequence/operation/single/hexagonal
+seq/keepRemove/hexagonal
+seq/operation/single/hexagonal

@@ -1,2 +1,4 @@
 sequence/keepRemove/prime
 sequence/operation/single/prime
+seq/keepRemove/prime
+seq/operation/single/prime

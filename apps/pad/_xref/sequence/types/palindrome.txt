@@ -1,2 +1,4 @@
 sequence/basic/palindrome
 sequence/specials/other
+seq/basic/palindrome
+seq/specials/other

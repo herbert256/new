@@ -1,2 +1,4 @@
 sequence/basic/cullen
 sequence/specials/named
+seq/basic/cullen
+seq/specials/named

@@ -1,2 +1,4 @@
 sequence/basic/triangular
 sequence/specials/figurate
+seq/basic/triangular
+seq/specials/figurate

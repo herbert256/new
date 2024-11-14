@@ -1,0 +1,4 @@
+seq/basic/gnomonic
+seq/specials/figurate
+seq/keepRemove/gnomonic
+seq/operation/single/gnomonic

@@ -1,2 +1,4 @@
 sequence/basic/tribonacci
 sequence/specials/named
+seq/basic/tribonacci
+seq/specials/named

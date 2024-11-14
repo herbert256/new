@@ -1,1 +1,2 @@
 sequence/operation/single/or
+seq/operation/single/or

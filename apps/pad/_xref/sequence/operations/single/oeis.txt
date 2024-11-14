@@ -1,1 +1,2 @@
 sequence/operation/single/oeis
+seq/operation/single/oeis

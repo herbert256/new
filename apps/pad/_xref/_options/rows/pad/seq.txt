@@ -1,0 +1,15 @@
+seq/actions/double/intersection
+seq/actions/single/dedup
+seq/actions/single/trim
+seq/specials/dedup
+seq/specials/eval
+seq/specials/even_odd
+seq/specials/figurate
+seq/specials/intersection
+seq/specials/loop
+seq/specials/named
+seq/specials/other
+seq/specials/prime_or_not
+seq/specials/random
+seq/specials/step_multiple
+seq/specials/trim

@@ -1,0 +1,11 @@
+{table}
+
+{demo}{seq 15}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq 15, multiple=4}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

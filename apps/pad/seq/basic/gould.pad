@@ -1,0 +1,7 @@
+{table}
+
+{demo}{seq 15, gould}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

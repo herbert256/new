@@ -1,2 +1,4 @@
 sequence/keepRemove/sylvester
 sequence/operation/single/sylvester
+seq/keepRemove/sylvester
+seq/operation/single/sylvester

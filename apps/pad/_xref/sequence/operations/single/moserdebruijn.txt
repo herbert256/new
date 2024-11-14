@@ -1,2 +1,4 @@
 sequence/keepRemove/moserdebruijn
 sequence/operation/single/moserdebruijn
+seq/keepRemove/moserdebruijn
+seq/operation/single/moserdebruijn

@@ -1,2 +1,3 @@
 sequence/basic/not
 sequence/specials/logic
+seq/basic/not

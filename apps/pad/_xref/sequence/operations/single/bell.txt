@@ -1,2 +1,4 @@
 sequence/keepRemove/bell
 sequence/operation/single/bell
+seq/keepRemove/bell
+seq/operation/single/bell

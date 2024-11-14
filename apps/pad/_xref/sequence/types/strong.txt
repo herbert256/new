@@ -1,2 +1,4 @@
 sequence/basic/strong
 sequence/specials/other
+seq/basic/strong
+seq/specials/other

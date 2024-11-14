@@ -1,2 +1,3 @@
 sequence/basic/repeat
 sequence/specials/other
+seq/specials/other

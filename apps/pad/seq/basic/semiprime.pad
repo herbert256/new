@@ -1,0 +1,7 @@
+{table}
+
+{demo}{seq 15, semiprime}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

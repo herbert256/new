@@ -1,0 +1,7 @@
+{table}
+
+{demo}{seq 15, emirp}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

@@ -1,2 +1,4 @@
 sequence/basic/catalan
 sequence/specials/named
+seq/basic/catalan
+seq/specials/named

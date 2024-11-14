@@ -1,2 +1,4 @@
 sequence/basic/pentagonal
 sequence/specials/figurate
+seq/basic/pentagonal
+seq/specials/figurate

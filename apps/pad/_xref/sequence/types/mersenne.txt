@@ -1,2 +1,4 @@
 sequence/basic/mersenne
 sequence/specials/prime_or_not
+seq/basic/mersenne
+seq/specials/prime_or_not

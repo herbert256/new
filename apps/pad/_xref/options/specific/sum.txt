@@ -1,1 +1,2 @@
 sequence/specials/other
+seq/specials/other

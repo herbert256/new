@@ -1,2 +1,4 @@
 sequence/keepRemove/polite
 sequence/operation/single/polite
+seq/keepRemove/polite
+seq/operation/single/polite

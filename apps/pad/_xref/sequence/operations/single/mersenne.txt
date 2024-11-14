@@ -1,2 +1,4 @@
 sequence/keepRemove/mersenne
 sequence/operation/single/mersenne
+seq/keepRemove/mersenne
+seq/operation/single/mersenne

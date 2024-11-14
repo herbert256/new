@@ -1,2 +1,4 @@
 sequence/basic/sylvester
 sequence/specials/named
+seq/basic/sylvester
+seq/specials/named

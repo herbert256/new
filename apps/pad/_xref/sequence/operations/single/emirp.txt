@@ -1,2 +1,4 @@
 sequence/keepRemove/emirp
 sequence/operation/single/emirp
+seq/keepRemove/emirp
+seq/operation/single/emirp

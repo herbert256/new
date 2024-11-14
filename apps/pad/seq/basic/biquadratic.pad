@@ -1,0 +1,7 @@
+{table}
+
+{demo}{seq 15, biquadratic}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

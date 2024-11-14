@@ -1,2 +1,4 @@
 sequence/keepRemove/octahedral
 sequence/operation/single/octahedral
+seq/keepRemove/octahedral
+seq/operation/single/octahedral

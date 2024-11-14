@@ -1,0 +1,15 @@
+{table}
+
+{demo}{seq loop, from=1, to=10}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq loop, from=1, to=10, keep, octahedral}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{seq loop, from=1, to=10, remove, octahedral}
+  {$seq}
+{/seq}{/demo}
+
+{/table}

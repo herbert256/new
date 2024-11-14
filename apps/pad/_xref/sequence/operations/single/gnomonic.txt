@@ -1,2 +1,4 @@
 sequence/keepRemove/gnomonic
 sequence/operation/single/gnomonic
+seq/keepRemove/gnomonic
+seq/operation/single/gnomonic

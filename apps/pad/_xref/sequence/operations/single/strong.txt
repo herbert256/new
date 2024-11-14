@@ -1,2 +1,4 @@
 sequence/keepRemove/strong
 sequence/operation/single/strong
+seq/keepRemove/strong
+seq/operation/single/strong

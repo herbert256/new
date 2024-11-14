@@ -1,0 +1,45 @@
+{table}
+ 
+{demo}{seq '10..20', name='abc'}{/demo}
+
+{demo}{abc reverse}
+  {$seq}
+{/abc}{/demo}
+
+{demo}{abc action='reverse'}
+  {$seq}
+{/abc}{/demo}
+
+{demo}{reverse abc}
+  {$seq}
+{/reverse}{/demo}
+
+{demo}{action reverse='abc'}
+  {$seq}
+{/action}{/demo}
+
+{demo}{action:reverse abc}
+  {$seq}
+{/action:reverse}{/demo}
+
+{/table}
+
+{table}
+ 
+{demo}{seq '10..20', reverse}
+  {$seq}
+{/seq}{/demo}
+
+{demo}{reverse '10..20'}
+  {$seq}
+{/reverse}{/demo}
+
+{demo}{action reverse, '10..20'}
+  {$seq}
+{/action}{/demo}
+
+{demo}{action:reverse '10..20'}
+  {$seq}
+{/action:reverse}{/demo}
+
+{/table}
