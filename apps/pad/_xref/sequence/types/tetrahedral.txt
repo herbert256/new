@@ -1,4 +1,2 @@
 sequence/basic/tetrahedral
 sequence/specials/figurate
-seq/basic/tetrahedral
-seq/specials/figurate

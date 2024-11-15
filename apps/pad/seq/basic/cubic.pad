@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, cubic}
+{demo}{seq cubic, rows=15}
   {$seq}
 {/seq}{/demo}
 

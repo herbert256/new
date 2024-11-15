@@ -1,4 +1,2 @@
 sequence/basic/fibonacci
 sequence/specials/named
-seq/basic/fibonacci
-seq/specials/named

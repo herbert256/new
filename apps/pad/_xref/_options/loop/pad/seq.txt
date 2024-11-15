@@ -1,3 +1,4 @@
+seq/actions/single/trim
 seq/basic/loop
 seq/keepRemove/antiprime
 seq/keepRemove/bell
@@ -44,5 +45,14 @@ seq/keepRemove/strong
 seq/keepRemove/sylvester
 seq/keepRemove/tetrahedral
 seq/keepRemove/triangular
-seq/specials/loop
+seq/operation/double/loop
 seq/operation/single/loop
+seq/specials/increment
+seq/specials/keepRemove
+seq/specials/logic
+seq/specials/loop
+seq/specials/loop_source
+seq/specials/make
+seq/specials/oeis
+seq/specials/trim
+test

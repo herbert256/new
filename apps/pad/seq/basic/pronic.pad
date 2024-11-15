@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, pronic}
+{demo}{seq pronic, rows=15}
   {$seq}
 {/seq}{/demo}
 

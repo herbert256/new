@@ -1,6 +1,6 @@
 {table}
 
-  {demo}{seq}
+  {demo}{seq 25}
     {$seq} 
   {/seq}{/demo}
 
@@ -12,12 +12,12 @@
 
 {table}
 
-  {demo}{seq}
+  {demo}{seq 25}
     {$seq} 
   {/seq}{/demo}
 
   {demo}{seq and=85}
-    {$seq} 
+    {$seq}  
   {/seq}{/demo}
 
   {demo}{seq and=85, not}
@@ -32,7 +32,7 @@
 
 {table}
 
-  {demo}{seq}
+  {demo}{seq 25}
     {$seq} 
   {/seq}{/demo}
 
@@ -52,7 +52,7 @@
 
 {table}
 
-  {demo}{seq}
+  {demo}{seq 25}
     {$seq} 
   {/seq}{/demo}
 

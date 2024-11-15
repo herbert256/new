@@ -7,6 +7,9 @@
     
     $base = APP . "_xref/seq/";
 
+    if ( ! file_exists ( "$base$dir" ) )
+      return [];
+
     $directory = new DirectoryIterator ( "$base$dir" );
     $iterator  = new IteratorIterator  ( $directory );
 

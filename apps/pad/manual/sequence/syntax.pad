@@ -150,7 +150,7 @@ but naming conflicts are possible and then above option way must be used.
 
 {mySeq even, multiply=10, shuffle} {$sequence} {/mySeq}
 
-{/demo}{demo}
+{/demo}
 
 {/table}
 
@@ -168,8 +168,6 @@ use a '|' to give the parameter.
 {/demo}{demo}
 
 {mySeq operation='multiply|10'} {$sequence} {/mySeq}
-
-{/demo}{demo}
 
 {/demo}
 

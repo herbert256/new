@@ -1,4 +1,2 @@
 sequence/basic/kynea
 sequence/specials/named
-seq/basic/kynea
-seq/specials/named

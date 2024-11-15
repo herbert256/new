@@ -2,9 +2,9 @@
 
   $padSeqReturn = [];
 
-  $padSeqNames [] = $padPrm [$pad] ['name']   ?? ''; 
-  $padSeqNames [] = $padPrm [$pad] ['toData'] ?? '';
   $padSeqNames [] = 'seq';
+  $padSeqNames [] = $padSeqName; 
+  $padSeqNames [] = $padSeqToData;
   $padSeqNames [] = $padSeqSeq;
   $padSeqNames [] = $padSeqName; 
   $padSeqNames [] = $padSeqGet;

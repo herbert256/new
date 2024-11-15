@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, semiprime}
+{demo}{seq semiprime, rows=15}
   {$seq}
 {/seq}{/demo}
 

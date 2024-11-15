@@ -16,7 +16,7 @@
   {$seq} 
 {/seq}{/demo}
 
-{demo}{seq range='1..16', power=2, random, rows=10}
+{demo}{seq '1..16', power=2, random, rows=10}
   {$seq} 
 {/seq}{/demo}
 

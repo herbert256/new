@@ -1,14 +1,14 @@
 {table}
 
-{demo}{seq loop, from=1, to=10}
+{demo}{seq 10}
   {$seq}
 {/seq}{/demo}
 
-{demo}{seq loop, from=1, to=10, keep, kolakoski}
+{demo}{seq 10, keep, kolakoski}
   {$seq}
 {/seq}{/demo}
 
-{demo}{seq loop, from=1, to=10, remove, kolakoski}
+{demo}{seq 10, remove, kolakoski}
   {$seq}
 {/seq}{/demo}
 

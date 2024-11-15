@@ -1,4 +1,2 @@
 sequence/keepRemove/lucky
 sequence/operation/single/lucky
-seq/keepRemove/lucky
-seq/operation/single/lucky

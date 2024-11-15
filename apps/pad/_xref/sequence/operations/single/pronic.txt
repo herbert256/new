@@ -1,4 +1,2 @@
 sequence/keepRemove/pronic
 sequence/operation/single/pronic
-seq/keepRemove/pronic
-seq/operation/single/pronic

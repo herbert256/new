@@ -1,4 +1,2 @@
 sequence/keepRemove/palindrome
 sequence/operation/single/palindrome
-seq/keepRemove/palindrome
-seq/operation/single/palindrome

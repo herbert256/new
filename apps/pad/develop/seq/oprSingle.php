@@ -1,6 +1,6 @@
 <?php
  
-  if ( $type == 'random' or $type == 'pull' or $build == 'fixed' or $build == 'order' )
+  if ( $type == 'random' or $type == 'get' or $build == 'fixed' or $build == 'order' )
     return;
 
   $main = ( $type == 'even') ? 'odd' : 'even';

@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, heptagonal}
+{demo}{seq heptagonal, rows=15}
   {$seq}
 {/seq}{/demo}
 

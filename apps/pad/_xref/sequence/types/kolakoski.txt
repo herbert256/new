@@ -1,4 +1,2 @@
 sequence/basic/kolakoski
 sequence/specials/named
-seq/basic/kolakoski
-seq/specials/named

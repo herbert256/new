@@ -1,4 +1,2 @@
 sequence/keepRemove/triangular
 sequence/operation/single/triangular
-seq/keepRemove/triangular
-seq/operation/single/triangular

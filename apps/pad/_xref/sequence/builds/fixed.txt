@@ -1,6 +1,7 @@
 lvl_occ/4
 miscellaneous/filter
 miscellaneous/level_and_occurrence_variables
+seq/specials/arithmetic
 sequence/actions/double/append
 sequence/actions/double/combine
 sequence/actions/double/difference
@@ -136,9 +137,6 @@ sequence/store/operations/tetrahedral
 sequence/store/operations/triangular
 tableFun/fun_5_a
 tableFun/fun_5_b
-test
 vars/at/3
 walk/1
-seq/basic/list
-seq/basic/range
-seq/specials/random
+test

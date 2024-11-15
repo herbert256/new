@@ -1,4 +1,2 @@
 sequence/keepRemove/recaman
 sequence/operation/single/recaman
-seq/keepRemove/recaman
-seq/operation/single/recaman

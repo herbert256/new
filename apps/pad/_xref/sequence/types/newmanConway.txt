@@ -1,4 +1,2 @@
 sequence/basic/newmanConway
 sequence/specials/named
-seq/basic/newmanConway
-seq/specials/named

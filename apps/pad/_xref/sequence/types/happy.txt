@@ -1,4 +1,2 @@
 sequence/basic/happy
 sequence/specials/other
-seq/basic/happy
-seq/specials/other

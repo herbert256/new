@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, tetrahedral}
+{demo}{seq tetrahedral, rows=15}
   {$seq}
 {/seq}{/demo}
 

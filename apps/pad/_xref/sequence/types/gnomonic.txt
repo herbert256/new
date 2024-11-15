@@ -1,4 +1,2 @@
 sequence/basic/gnomonic
 sequence/specials/figurate
-seq/basic/gnomonic
-seq/specials/figurate

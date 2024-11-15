@@ -1,6 +1,3 @@
 sequence/basic/octahedral
 sequence/keepRemove/octahedral
 sequence/specials/figurate
-seq/basic/octahedral
-seq/keepRemove/octahedral
-seq/specials/figurate

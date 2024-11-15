@@ -13,7 +13,6 @@
   $padSeqOptions    = [];
   $padSeqNames      = [];
   $padSeqOperations = [];
-  $padSeqParmUsed   = FALSE;
   $padSeqPull       = '';
 
 ?>

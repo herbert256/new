@@ -1,7 +1,7 @@
 {table}
 
 {demo}
-{seq from=10, to=20, name='mySeq'}
+{seq 20, name='mySeq'}
 {/demo}
 
 {demo}

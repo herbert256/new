@@ -14,7 +14,7 @@
 
     }
 
-    $text = padCode ( "{sequence gnomonic, from=$f, stop=$n, try=$n}{\$sequence},{/sequence}" );
+    $text = padCode ( "{seq gnomonic, from=$f, stop=$n, try=$n}{\$seq},{/seq}" );
     $arr  = explode ( ',', $text );
 
     return in_array ( $n, $arr );

@@ -64,9 +64,9 @@ Stores are stored seq lists in from below example, mySeq is a store.
 
 {table}
 {demo}{seq range='20..30', store='mySeq'} {/demo}
-{demo}{mySeq} 
+{demo}{seq mySeq} 
   {$mySeq} 
-{/mySeq}{/demo}
+{/seq}{/demo}
 {/table}
 
 {/block}
@@ -80,12 +80,12 @@ in below 2 examples even/add are operations.
 
 {table}
 {demo}{seq range='20..30', store='mySeq'} {/demo}
-{demo}{mySeq even} 
+{demo}{seq mySeq, even} 
   {$mySeq} 
-{/mySeq}{/demo}
-{demo}{mySeq add=5} 
+{/seq}{/demo}
+{demo}{seq mySeq, add=5} 
   {$mySeq} 
-{/mySeq}{/demo}
+{/seq}{/demo}
 {/table}
 
 {/block}
@@ -99,12 +99,12 @@ in below 2 examples shuffle/reverse are actions.
 
 {table}
 {demo}{seq range='20..30', store='mySeq'} {/demo}
-{demo}{mySeq shuffle} 
+{demo}{seq mySeq, shuffle} 
   {$mySeq} 
-{/mySeq}{/demo}
-{demo}{mySeq reverse} 
+{/seq}{/demo}
+{demo}{seq mySeq, reverse} 
   {$mySeq} 
-{/mySeq}{/demo}
+{/seq}{/demo}
 {/table}
 
 {/block}
@@ -118,12 +118,94 @@ in from below 2 examples, first/sum are ones.
 
 {table}
 {demo}{seq range='20..30', store='mySeq'} {/demo}
-{demo}{mySeq first} 
+{demo}{seq mySeq, first} 
   {$mySeq} 
-{/mySeq}{/demo}
-{demo}{mySeq sum} 
+{/seq}{/demo}
+{demo}{seq mySeq, sum} 
   {$mySeq} 
-{/mySeq}{/demo}
+{/seq}{/demo}
+{/table}
+
+{/block}<h3>Options</h2><br>{block}
+
+<br><p>operations/actions/ones can be added as options to a seq tag
+
+{table}{demo}
+
+{seq loop, from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{seq mySeq, operation='even'} {$seq} {/seq}
+
+{/demo}{demo}
+
+{seq mySeq, action='shuffle'} {$seq} {/seq}
+
+{/demo}{demo} 
+
+{seq mySeq, one='average'} {$seq} {/seq}
+
+{/demo}
+
+{/table}
+
+{/block}<h3>Parameters</h2><br>{block}
+
+<br><p>operation/actions/ones can be added as a parameter to a seq tag,<br>
+but naming conflicts are possible and then above option way must be used.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{seq mySeq, even} {$seq} {/seq}
+
+{/demo}{demo}
+
+{seq mySeq, shuffle} {$seq} {/seq}
+
+{/demo}{demo} 
+
+{seq mySeq, average} {$seq} {/seq}
+
+{/demo}
+
+{/table}
+
+{/block}<h3>Chain</h2><br>{block}
+
+<br><p>operation/actions/ones can be used in a chain.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{seq mySeq, even, multiply=10, shuffle} {$seq} {/seq}
+
+{/demo}
+
+{/table}
+
+{/block}<h3>Option with parameter</h2><br>{block}
+
+<br><p>when an operation/action/one, that is used as an option, has a parameter<br>
+use a '|' to give the parameter.
+
+{table}{demo}
+
+{loop from=10, to=20, name='mySeq'}
+
+{/demo}{demo}
+
+{seq mySeq, operation='multiply|10'} {$seq} {/seq}
+
+{/demo}
+
 {/table}
 
 {/block}

@@ -1,6 +1,7 @@
 <?php
  
   if     ( $type == 'get'       ) return;
+  elseif ( $type == 'loop'      ) $go = "loop, rows=15";
   elseif ( $type == 'oeis'      ) $go = "oeis=87, rows=15";
   elseif ( $type == 'list'      ) $go = "list='1;8;5;2;9;66'";
   elseif ( $type == 'range'     ) $go = "range='1..10'";

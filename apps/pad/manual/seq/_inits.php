@@ -18,6 +18,6 @@
   if ( ! isset ( $go ) or ! $go )
     $go = 'index';
 
-  $title = 'Sequences - ' . $nows [$go] ['text']
+  $title = 'Seq - ' . $nows [$go] ['text']
 
 ?>

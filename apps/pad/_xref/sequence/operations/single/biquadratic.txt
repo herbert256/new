@@ -1,4 +1,2 @@
 sequence/keepRemove/biquadratic
 sequence/operation/single/biquadratic
-seq/keepRemove/biquadratic
-seq/operation/single/biquadratic

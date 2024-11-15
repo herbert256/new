@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, xpadovan}
+{demo}{seq xpadovan, rows=15}
   {$seq}
 {/seq}{/demo}
 

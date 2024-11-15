@@ -1,4 +1,2 @@
 sequence/keepRemove/caterer
 sequence/operation/single/caterer
-seq/keepRemove/caterer
-seq/operation/single/caterer

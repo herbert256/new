@@ -14,7 +14,7 @@
 
     }
 
-    $text = padCode ( "{sequence square, from=$f, stop=$n, try=$n}{\$sequence},{/sequence}" );
+    $text = padCode ( "{seq square, from=$f, stop=$n, try=$n}{\$seq},{/seq}" );
     $arr  = explode ( ',', $text );
 
     return in_array ( $n, $arr );

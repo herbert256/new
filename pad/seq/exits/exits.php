@@ -9,7 +9,7 @@
   include PAD . 'seq/exits/return.php';
   include PAD . 'seq/exits/done.php';
    
-  if ( $GLOBALS ['padInfo'] )
-    include PAD . 'events/sequence.php';
+  if ( $GLOBALS ['padInfo'] ) 
+    include PAD . 'events/seq.php';
 
 ?>

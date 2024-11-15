@@ -1,4 +1,2 @@
 sequence/keepRemove/happy
 sequence/operation/single/happy
-seq/keepRemove/happy
-seq/operation/single/happy

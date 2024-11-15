@@ -1,4 +1,2 @@
 sequence/keepRemove/odd
 sequence/operation/single/odd
-seq/keepRemove/odd
-seq/operation/single/odd

@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, tribonacci}
+{demo}{seq tribonacci, rows=15}
   {$seq}
 {/seq}{/demo}
 

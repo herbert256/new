@@ -1,4 +1,2 @@
 sequence/keepRemove/enneadecagonal
 sequence/operation/single/enneadecagonal
-seq/keepRemove/enneadecagonal
-seq/operation/single/enneadecagonal

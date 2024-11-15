@@ -1,4 +1,2 @@
 sequence/keepRemove/catalan
 sequence/operation/single/catalan
-seq/keepRemove/catalan
-seq/operation/single/catalan

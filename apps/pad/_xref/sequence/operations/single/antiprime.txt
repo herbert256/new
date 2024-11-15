@@ -1,4 +1,2 @@
 sequence/keepRemove/antiprime
 sequence/operation/single/antiprime
-seq/keepRemove/antiprime
-seq/operation/single/antiprime

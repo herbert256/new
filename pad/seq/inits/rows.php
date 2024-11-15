@@ -2,12 +2,6 @@
 
   if ( $padSeqRows ) 
     return;
-
-  if ( ! $padSeqParmUsed and ctype_digit ( $padOpt [$pad] [1] ) ) {
-    $padSeqRows     = $padOpt [$pad] [1] ;
-    $padSeqParmUsed = TRUE;
-    return;
-  }
   
   if     ( $padSeqTo <> PHP_INT_MAX                  ) $padSeqRows = PHP_INT_MAX ;
   elseif ( $padSeqTry <> 10000                       ) $padSeqRows = PHP_INT_MAX ;

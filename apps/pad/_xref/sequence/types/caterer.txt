@@ -1,4 +1,2 @@
 sequence/basic/caterer
 sequence/specials/named
-seq/basic/caterer
-seq/specials/named

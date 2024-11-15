@@ -1,10 +1,6 @@
 {table}
 
-{demo}{seq 15}
-  {$seq}
-{/seq}{/demo}
-
-{demo}{seq 15, xnor=4}
+{demo}{seq xnor=4, rows=15}
   {$seq}
 {/seq}{/demo}
 

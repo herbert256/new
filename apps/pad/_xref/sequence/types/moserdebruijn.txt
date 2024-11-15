@@ -1,4 +1,2 @@
 sequence/basic/moserdebruijn
 sequence/specials/named
-seq/basic/moserdebruijn
-seq/specials/named

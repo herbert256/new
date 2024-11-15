@@ -1,8 +1,8 @@
 {table}
 
-{demo}{seq '11..14', name='one'}{/demo}
+{demo}{seq '11..14', set='one'}{/demo}
 
-{demo}{seq '5..2',   name='two'}{/demo}
+{demo}{seq '5..2',   set='two'}{/demo}
 
 {demo}{seq one}
   {$seq}
@@ -12,7 +12,7 @@
   {$seq}
 {/seq}{/demo}
 
-{demo}{seq one, add='two'}
+{demo}{seq get='one', add='two'}
   {$seq}
 {/seq}{/demo}
 

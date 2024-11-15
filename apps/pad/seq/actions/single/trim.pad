@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq rows=25, name='mySeq'}{/demo}
+{demo}{seq 25, name='mySeq'}{/demo}
 
 {demo}{seq mySeq}
   {$seq}  

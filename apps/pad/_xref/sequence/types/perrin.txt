@@ -1,4 +1,2 @@
 sequence/basic/perrin
 sequence/specials/named
-seq/basic/perrin
-seq/specials/named

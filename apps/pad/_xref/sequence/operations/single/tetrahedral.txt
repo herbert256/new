@@ -1,4 +1,2 @@
 sequence/keepRemove/tetrahedral
 sequence/operation/single/tetrahedral
-seq/keepRemove/tetrahedral
-seq/operation/single/tetrahedral

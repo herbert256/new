@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, gould}
+{demo}{seq gould, rows=15}
   {$seq}
 {/seq}{/demo}
 

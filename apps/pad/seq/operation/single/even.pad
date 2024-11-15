@@ -1,10 +1,10 @@
 {table}
 
-{demo}{seq 5, odd}
+{demo}{seq odd, rows=5}
   {$seq}
 {/seq}{/demo}
 
-{demo}{seq 5, odd, even}
+{demo}{seq odd, even, rows=5}
   {$seq}
 {/seq}{/demo}
 

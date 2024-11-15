@@ -17,6 +17,10 @@
 
       include PAD . 'seq/actions/action.php';
 
+    elseif ( str_starts_with ( $padPrmName, 'store' ) )
+
+      include PAD . 'seq/store/store.php';  
+
     elseif ( file_exists ( PAD . "seq/options/types/$padPrmName.php" ) )
 
       continue;

@@ -1,4 +1,2 @@
 sequence/keepRemove/kaprekar
 sequence/operation/single/kaprekar
-seq/keepRemove/kaprekar
-seq/operation/single/kaprekar

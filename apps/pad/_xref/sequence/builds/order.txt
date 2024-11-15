@@ -5,10 +5,3 @@ sequence/basic/perrin
 sequence/basic/tribonacci
 sequence/basic/xpadovan
 sequence/specials/named
-seq/basic/fibonacci
-seq/basic/golomb
-seq/basic/lucas
-seq/basic/perrin
-seq/basic/tribonacci
-seq/basic/xpadovan
-seq/specials/named

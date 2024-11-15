@@ -1,2 +1,4 @@
+seq/actions/single/sort
+seq/specials/random2
 sequence/actions/single/sort
 sequence/specials/random2

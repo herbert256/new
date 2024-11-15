@@ -1,2 +1,2 @@
-sequence/specials/print
 seq/specials/print
+sequence/specials/print

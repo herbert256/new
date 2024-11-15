@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, biquadratic}
+{demo}{seq biquadratic, rows=15}
   {$seq}
 {/seq}{/demo}
 

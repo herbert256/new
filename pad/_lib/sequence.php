@@ -79,6 +79,9 @@
 
   function padSeqBuild ( $check, $for='' ) {
 
+    if ( $check == 'pull' or $check == 'get' )
+      return 'fixed';
+
     if ( $for == 'keep' or $for == 'remove' )
       return 'check';
 

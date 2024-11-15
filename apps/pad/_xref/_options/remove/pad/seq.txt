@@ -43,3 +43,4 @@ seq/keepRemove/strong
 seq/keepRemove/sylvester
 seq/keepRemove/tetrahedral
 seq/keepRemove/triangular
+seq/specials/keepRemove

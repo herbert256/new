@@ -1,4 +1,2 @@
 sequence/keepRemove/identity
 sequence/operation/single/identity
-seq/keepRemove/identity
-seq/operation/single/identity

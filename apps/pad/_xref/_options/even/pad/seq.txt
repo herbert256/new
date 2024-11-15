@@ -1,4 +1,5 @@
 seq/basic/even
+seq/keepRemove/even
 seq/operation/single/add
 seq/operation/single/and
 seq/operation/single/antiprime
@@ -15,6 +16,7 @@ seq/operation/single/divide
 seq/operation/single/emirp
 seq/operation/single/enneadecagonal
 seq/operation/single/eval
+seq/operation/single/even
 seq/operation/single/exponentiation
 seq/operation/single/floor
 seq/operation/single/gnomonic
@@ -68,5 +70,5 @@ seq/operation/single/triangular
 seq/operation/single/xnor
 seq/operation/single/xor
 seq/specials/even_odd
-seq/keepRemove/even
-seq/operation/single/even
+seq/specials/keepRemove
+seq/specials/make

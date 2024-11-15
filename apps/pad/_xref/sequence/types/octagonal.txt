@@ -1,4 +1,2 @@
 sequence/basic/octagonal
 sequence/specials/figurate
-seq/basic/octagonal
-seq/specials/figurate

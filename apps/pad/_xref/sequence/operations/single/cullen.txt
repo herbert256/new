@@ -1,4 +1,2 @@
 sequence/keepRemove/cullen
 sequence/operation/single/cullen
-seq/keepRemove/cullen
-seq/operation/single/cullen

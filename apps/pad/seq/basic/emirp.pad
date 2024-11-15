@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, emirp}
+{demo}{seq emirp, rows=15}
   {$seq}
 {/seq}{/demo}
 

@@ -1,4 +1,2 @@
 sequence/keepRemove/composite
 sequence/operation/single/composite
-seq/keepRemove/composite
-seq/operation/single/composite

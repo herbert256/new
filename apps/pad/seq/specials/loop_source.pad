@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq from=4, to=8, name='mySeq'}{/demo}
+{demo}{seq loop, from=4, to=8, name='mySeq'}{/demo}
 
 {demo}{seq power=2, from=1, to=16, increment=2}
   {$seq} 
@@ -10,11 +10,11 @@
   {$seq} 
 {/seq}{/demo}
 
-{demo}{seq range='9..16', power=2}
+{demo}{seq '9..16', power=2}
   {$seq} 
 {/seq}{/demo}
 
-{demo}{seq list='8;4;16;2', power=2}
+{demo}{seq '8;4;16;2', power=2}
   {$seq} 
 {/seq}{/demo}
 

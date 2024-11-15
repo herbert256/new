@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, happy}
+{demo}{seq happy, rows=15}
   {$seq}
 {/seq}{/demo}
 

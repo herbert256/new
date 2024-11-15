@@ -4,7 +4,7 @@
 
   {true data='xref'}
 
-    {seq '1..{$lvl}'}
+    {seq range='1..{$lvl}'}
       <blockquote>
     {/seq}
 
@@ -19,7 +19,7 @@
             
     </blockquote>
 
-    {seq '1..{$lvl}'}
+    {seq range='1..{$lvl}'}
       </blockquote>
     {/seq}
 

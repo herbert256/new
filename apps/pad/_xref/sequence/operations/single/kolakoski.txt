@@ -1,4 +1,2 @@
 sequence/keepRemove/kolakoski
 sequence/operation/single/kolakoski
-seq/keepRemove/kolakoski
-seq/operation/single/kolakoski

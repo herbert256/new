@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, negation}
+{demo}{seq negation, rows=15}
   {$seq}
 {/seq}{/demo}
 

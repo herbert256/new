@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, kynea}
+{demo}{seq kynea, rows=15}
   {$seq}
 {/seq}{/demo}
 

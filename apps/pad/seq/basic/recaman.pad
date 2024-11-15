@@ -1,6 +1,6 @@
 {table}
 
-{demo}{seq 15, recaman}
+{demo}{seq recaman, rows=15}
   {$seq}
 {/seq}{/demo}
 

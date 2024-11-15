@@ -1,2 +1,1 @@
 sequence/basic/identity
-seq/basic/identity

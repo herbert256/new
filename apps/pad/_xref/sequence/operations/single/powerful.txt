@@ -1,4 +1,2 @@
 sequence/keepRemove/powerful
 sequence/operation/single/powerful
-seq/keepRemove/powerful
-seq/operation/single/powerful

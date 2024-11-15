@@ -1,4 +1,2 @@
 sequence/keepRemove/square
 sequence/operation/single/square
-seq/keepRemove/square
-seq/operation/single/square

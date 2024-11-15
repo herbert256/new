@@ -1,4 +1,2 @@
 sequence/keepRemove/perfect
 sequence/operation/single/perfect
-seq/keepRemove/perfect
-seq/operation/single/perfect

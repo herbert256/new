@@ -31,6 +31,14 @@
   @else@
     <a href="/?manual/sequence">sequences</a> 
   {/if}
+   
+  &nbsp; | &nbsp;
+
+  {if str_starts_with ( $padPage, 'manual/seq/' ) }
+    seq
+  @else@
+    <a href="/?manual/seq/index">seq</a> 
+  {/if}
     
   &nbsp; | &nbsp;
 

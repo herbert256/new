@@ -2,7 +2,7 @@
 
   function padSeqBoolOctahedral( $n ) {
 
-    $text = padCode ( "{sequence octahedral, stop=$n, try=$n}{\$sequence},{/sequence}" );
+    $text = padCode ( "{seq octahedral, stop=$n, try=$n}{\$seq},{/seq}" );
     $arr  = explode ( ',', $text );
 
     return in_array ( $n, $arr );

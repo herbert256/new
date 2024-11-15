@@ -1,2 +1,4 @@
-seq/specials/step_multiple
+seq/basic/step
+seq/operation/double/step
 seq/operation/single/step
+seq/specials/step_multiple

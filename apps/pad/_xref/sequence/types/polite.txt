@@ -1,4 +1,2 @@
 sequence/basic/polite
 sequence/specials/named
-seq/basic/polite
-seq/specials/named

@@ -1,4 +1,2 @@
 sequence/basic/pronic
 sequence/specials/named
-seq/basic/pronic
-seq/specials/named

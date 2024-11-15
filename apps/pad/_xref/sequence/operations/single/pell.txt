@@ -1,4 +1,2 @@
 sequence/keepRemove/pell
 sequence/operation/single/pell
-seq/keepRemove/pell
-seq/operation/single/pell

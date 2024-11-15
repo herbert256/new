@@ -4,9 +4,9 @@
     $example = 'specials';
 
   if ( $example == 'seqs')
-    $examples = seqDir ( APP . "seq/basic" ) ;
+    $examples = sequenceDir ( APP . "seq/basic" ) ;
   else
-    $examples = seqDir ( APP . "seq/$example" ) ;
+    $examples = sequenceDir ( APP . "seq/$example" ) ;
 
   if ( isset ( $item ) and ! in_array ( $item, $examples) )
     $item = $examples [0];

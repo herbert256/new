@@ -1,2 +1,4 @@
+seq/specials/keepRemove
+seq/specials/make
 sequence/specials/keepRemove
 sequence/specials/make
