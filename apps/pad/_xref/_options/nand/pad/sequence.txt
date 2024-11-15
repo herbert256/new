@@ -1,4 +1,0 @@
-sequence/basic/nand
-sequence/operation/double/nand
-sequence/operation/single/nand
-sequence/specials/logic

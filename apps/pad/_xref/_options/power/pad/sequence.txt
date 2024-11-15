@@ -1,5 +1,0 @@
-sequence/basic/power
-sequence/operation/double/power
-sequence/operation/single/power
-sequence/specials/loop_source
-sequence/specials/random

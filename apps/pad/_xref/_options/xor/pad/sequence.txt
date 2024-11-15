@@ -1,4 +1,0 @@
-sequence/basic/xor
-sequence/operation/double/xor
-sequence/operation/single/xor
-sequence/specials/logic

@@ -1,12 +1,6 @@
 <?php
 
 
-  function padTypes () {
-  
-    return array_diff ( scandir ( PAD . 'sequence/types' ), [ '.', '..' ] ) ;
-
-  }
-
   function padSeqTypes () {
   
     return array_diff ( scandir ( PAD . 'seq/types' ), [ '.', '..' ] ) ;

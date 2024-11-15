@@ -1,3 +1,4 @@
+lvl_occ/4
 seq/actions/double/append
 seq/actions/double/combine
 seq/actions/double/difference
@@ -23,7 +24,6 @@ seq/specials/intersection
 seq/specials/keepRemove
 seq/specials/loop_source
 seq/specials/make
-seq/specials/names
 seq/specials/slice_splice
 seq/specials/splice
 seq/specials/trim
@@ -82,3 +82,5 @@ seq/store/operations/strong
 seq/store/operations/sylvester
 seq/store/operations/tetrahedral
 seq/store/operations/triangular
+tableFun/fun_5_b
+vars/at/3

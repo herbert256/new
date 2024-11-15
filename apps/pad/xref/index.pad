@@ -4,9 +4,9 @@
 
   {true data='xref'}
 
-    {sequence '1..{$lvl}'}
+    {seq '1..{$lvl}'}
       <blockquote>
-    {/sequence}
+    {/seq}
 
     <h3>{$type}</h3>
 
@@ -28,9 +28,9 @@
             
     </blockquote>
 
-    {sequence '1..{$lvl}'}
+    {seq '1..{$lvl}'}
       </blockquote>
-    {/sequence}
+    {/seq}
 
   {/true}
 

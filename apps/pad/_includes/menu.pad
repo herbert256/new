@@ -23,21 +23,13 @@
   @else@
     <a href="/?xref">reference</a> 
   {/if}
- 
-  &nbsp; | &nbsp;
-
-  {if str_starts_with ( $padPage, 'manual/sequence' ) }
-    sequences
-  @else@
-    <a href="/?manual/sequence">sequences</a> 
-  {/if}
    
   &nbsp; | &nbsp;
 
   {if str_starts_with ( $padPage, 'manual/seq/' ) }
-    seq
+    sequences
   @else@
-    <a href="/?manual/seq/index">seq</a> 
+    <a href="/?manual/seq/index">sequences</a> 
   {/if}
     
   &nbsp; | &nbsp;

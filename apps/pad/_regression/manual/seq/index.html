@@ -2,7 +2,7 @@
   <tr>
     <td>
       <p>
-        The seq sub-system of PAD, many many ways to get a seq of numbers.
+        The sequence sub-system of PAD, many many ways to get a sequence of numbers.
       </p>
     </td>
   </tr>
@@ -20,10 +20,10 @@
       <table border="1">
         <tr>
           <td>
-            seqs
+            sequences
           </td>
           <td>
-            Something that defines a seq list
+            Something that defines a sequence list
           </td>
         </tr>
         <tr>
@@ -31,7 +31,7 @@
             options
           </td>
           <td>
-            Options control aspects of a seq list
+            Options control aspects of a sequence list
           </td>
         </tr>
         <tr>
@@ -39,7 +39,7 @@
             store
           </td>
           <td>
-            A stored seq list
+            A stored sequence list
           </td>
         </tr>
         <tr>
@@ -55,15 +55,15 @@
             actions
           </td>
           <td>
-            An operation executed on a seq list
+            An operation executed on a sequence list
           </td>
         </tr>
         <tr>
           <td>
-            one
+            ones
           </td>
           <td>
-            An action that reducces a seq list to a single value
+            An action that reduces a sequence list to a single value
           </td>
         </tr>
       </table>
@@ -76,8 +76,8 @@
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      A seq defines a list of items that are together a seq list.<br>
-      in below 3 examples range/even/prime are seqs.
+      A seq defines a list of items that are together a sequence list.<br>
+      in below 3 examples range/even/prime are sequences.
       <p></p>
       <table border="1" cellpadding="10" cellspacing="0">
         <tr>
@@ -126,7 +126,7 @@
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      Options control aspects of a seq list,<br>
+      Options control aspects of a sequence list,<br>
       in below 2 examples from/to/rows/random/max are options.
       <p></p>
       <table border="1" cellpadding="10" cellspacing="0">
@@ -153,7 +153,7 @@
             <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">power=2<font color="black">,</font> rows=3<font color="black">,</font> random<font color="black">,</font> from=8<font color="black">,</font> to=16 </font>}</b><br>  <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <br><b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
           </td>
           <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->32768 65536 512<!-- END DEMO RESULT --></span></code>
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->256 4096 65536<!-- END DEMO RESULT --></span></code>
           </td>
         </tr>
       </table>
@@ -167,7 +167,7 @@
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      Stores are stored seq lists in from below example, mySeq is a store.
+      Stores are stored sequence lists in from below example, mySeq is a store.
       <p></p>
       <table border="1" cellpadding="10" cellspacing="0">
         <tr>
@@ -207,7 +207,7 @@
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      Operations are a seq that is executed on a seq list entry when building the list<br>
+      Operations are a seq that is executed on a sequence list entry when building the list<br>
       in below 2 examples even/add are operations.
       <p></p>
       <table border="1" cellpadding="10" cellspacing="0">
@@ -257,7 +257,7 @@
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      Actions operate on a seq list after the list is build,<br>
+      Actions operate on a sequence list after the list is build,<br>
       in below 2 examples shuffle/reverse are actions.
       <p></p>
       <table border="1" cellpadding="10" cellspacing="0">
@@ -284,7 +284,7 @@
             <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> shuffle</font>}</b> <br>  <b>{<font color="green"><font color="red">$</font>mySeq</font>}</b> <br><b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
           </td>
           <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->27 28 30 24 23 29 22 21 26 25 20<!-- END DEMO RESULT --></span></code>
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->20 27 26 23 30 29 24 22 25 28 21<!-- END DEMO RESULT --></span></code>
           </td>
         </tr>
         <tr>
@@ -307,7 +307,7 @@
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      Executing a 'one' on a seq list will reduce the seq list to a single value,<br>
+      Executing a 'one' on a sequence list will reduce the sequence list to a single value,<br>
       in from below 2 examples, first/sum are ones.
       <p></p>
       <table border="1" cellpadding="10" cellspacing="0">
@@ -350,7 +350,10 @@
       <p></p>
     </td>
   </tr>
-</table><br>
+</table>
+<h3>
+  Options
+</h3>
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
@@ -392,7 +395,7 @@
             <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> action=<font color="black">'</font>shuffle<font color="black">'</font></font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
           </td>
           <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->10 16 17 19 14 13 12 20 15 11 18<!-- END DEMO RESULT --></span></code>
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->19 20 16 12 11 10 13 14 15 18 17<!-- END DEMO RESULT --></span></code>
           </td>
         </tr>
         <tr>
@@ -408,106 +411,10 @@
       <p></p>
     </td>
   </tr>
-</table><br>
-<table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
-      <br>
-      <p>
-        operation/actions/ones can be added as a parameter to a seq tag,<br>
-        but naming conflicts are possible and then above option way must be used.
-      </p>
-      <p></p>
-      <table border="1" cellpadding="10" cellspacing="0">
-        <tr>
-          <th bgcolor="#DDDDDD">
-            HTML
-          </th>
-          <th bgcolor="#DDDDDD">
-            RESULT
-          </th>
-        </tr>
-        <tr>
-          <td style="vertical-align:top">
-            <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">loop </font><font color="red">from=10<font color="black">,</font> to=20<font color="black">,</font> name=<font color="black">'</font>mySeq<font color="black">'</font></font>}</b></code></pre><!-- END DEMO SOURCE -->
-          </td>
-          <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT --><!-- END DEMO RESULT --></span></code>
-          </td>
-        </tr>
-        <tr>
-          <td style="vertical-align:top">
-            <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> even</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
-          </td>
-          <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->10 12 12 14 14 16 16 18 18 20 20<!-- END DEMO RESULT --></span></code>
-          </td>
-        </tr>
-        <tr>
-          <td style="vertical-align:top">
-            <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> shuffle</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
-          </td>
-          <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->19 13 11 10 14 12 17 20 15 16 18<!-- END DEMO RESULT --></span></code>
-          </td>
-        </tr>
-        <tr>
-          <td style="vertical-align:top">
-            <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> average</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
-          </td>
-          <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->15<!-- END DEMO RESULT --></span></code>
-          </td>
-        </tr>
-      </table>
-      <p></p>
-    </td>
-  </tr>
-</table><br>
-<table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
-      <br>
-      <p>
-        operation/actions/ones can be used in a chain.
-      </p>
-      <p></p>
-      <table border="1" cellpadding="10" cellspacing="0">
-        <tr>
-          <th bgcolor="#DDDDDD">
-            HTML
-          </th>
-          <th bgcolor="#DDDDDD">
-            RESULT
-          </th>
-        </tr>
-        <tr>
-          <td style="vertical-align:top">
-            <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">loop </font><font color="red">from=10<font color="black">,</font> to=20<font color="black">,</font> name=<font color="black">'</font>mySeq<font color="black">'</font></font>}</b></code></pre><!-- END DEMO SOURCE -->
-          </td>
-          <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT --><!-- END DEMO RESULT --></span></code>
-          </td>
-        </tr>
-        <tr>
-          <td style="vertical-align:top">
-            <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> even<font color="black">,</font> multiply=10<font color="black">,</font> shuffle</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
-          </td>
-          <td style="vertical-align:top">
-            <code><span style="color: #000000"><!-- START DEMO RESULT -->180 160 160 100 180 200 120 120 140 140 200<!-- END DEMO RESULT --></span></code>
-          </td>
-        </tr>
-      </table>
-      <p></p>
-    </td>
-  </tr>
-</table><br>
+</table>
+<h3>
+  Option with parameter
+</h3>
 <table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
   <tr>
     <td>
@@ -529,7 +436,7 @@
         <tr>
           <td style="vertical-align:top">
             <!-- START DEMO SOURCE -->
-            <pre><code style="color: #000000"><b>{<font color="blue">loop </font><font color="red">from=10<font color="black">,</font> to=20<font color="black">,</font> name=<font color="black">'</font>mySeq<font color="black">'</font></font>}</b></code></pre><!-- END DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red"><font color="black">'</font>10..20<font color="black">'</font><font color="black">,</font> name=<font color="black">'</font>mySeq<font color="black">'</font></font>}</b></code></pre><!-- END DEMO SOURCE -->
           </td>
           <td style="vertical-align:top">
             <code><span style="color: #000000"><!-- START DEMO RESULT --><!-- END DEMO RESULT --></span></code>
@@ -542,6 +449,281 @@
           </td>
           <td style="vertical-align:top">
             <code><span style="color: #000000"><!-- START DEMO RESULT -->100 110 120 130 140 150 160 170 180 190 200<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+      </table>
+      <p></p>
+    </td>
+  </tr>
+</table>
+<h3>
+  Parameters
+</h3>
+<table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <br>
+      <p>
+        operation/actions/ones can be added as a parameter to a seq tag,<br>
+        but naming conflicts are possible and then above option way must be used.
+      </p>
+      <p></p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th bgcolor="#DDDDDD">
+            HTML
+          </th>
+          <th bgcolor="#DDDDDD">
+            RESULT
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red"><font color="black">'</font>10..20<font color="black">'</font><font color="black">,</font> name=<font color="black">'</font>mySeq<font color="black">'</font></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT --><!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> even</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->10 12 12 14 14 16 16 18 18 20 20<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> shuffle</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->18 12 11 13 10 14 16 19 20 15 17<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">mySeq<font color="black">,</font> average</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->15<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+      </table>
+      <p></p>
+    </td>
+  </tr>
+</table>
+<h3>
+  Chain
+</h3>
+<table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <br>
+      <p>
+        operation/actions/ones can be used in a chain.
+      </p>
+      <p></p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th bgcolor="#DDDDDD">
+            HTML
+          </th>
+          <th bgcolor="#DDDDDD">
+            RESULT
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red"><font color="black">'</font>10..20<font color="black">'</font><font color="black">,</font> even<font color="black">,</font> multiply=10<font color="black">,</font> shuffle<font color="black">,</font> add=2</font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->162 122 122 102 202 142 182 182 142 162 202<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+      </table>
+      <p></p>
+    </td>
+  </tr>
+</table>
+<h3>
+  Shortcuts
+</h3>
+<table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <br>
+      <p>
+        Shortcuts for the loop/list/range sequences
+      </p>
+      <p></p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th bgcolor="#DDDDDD">
+            HTML
+          </th>
+          <th bgcolor="#DDDDDD">
+            RESULT
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">loop<font color="black">,</font> rows=10</font>}</b>  <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->1 2 3 4 5 6 7 8 9 10<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">list=<font color="black">'</font>a;b;c<font color="black">'</font></font>}</b>   <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->a b c<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">range=<font color="black">'</font>11..20<font color="black">'</font></font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->11 12 13 14 15 16 17 18 19 20<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">10</font>}</b>       <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->1 2 3 4 5 6 7 8 9 10<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red"><font color="black">'</font>a;b;c<font color="black">'</font></font>}</b>  <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->a b c<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red"><font color="black">'</font>11..20<font color="black">'</font></font>}</b> <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->11 12 13 14 15 16 17 18 19 20<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+      </table>
+      <p></p><br>
+      <p>
+        Shortcuts for sequences
+      </p>
+      <p></p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th bgcolor="#DDDDDD">
+            HTML
+          </th>
+          <th bgcolor="#DDDDDD">
+            RESULT
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">golomb </font><font color="red">rows=10</font>}</b>  <b>{<font color="green"><font color="red">$</font>golomb</font>}</b> <b>{/<font color="blue">golomb</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->1 2 2 3 3 4 4 4 5 5<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">prime </font><font color="red">rows=10</font>}</b>  <b>{<font color="green"><font color="red">$</font>prime</font>}</b>  <b>{/<font color="blue">prime</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->2 3 5 7 11 13 17 19 23 29<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+      </table>
+      <p></p><br>
+      <p>
+        Shortcuts for stores
+      </p>
+      <p></p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th bgcolor="#DDDDDD">
+            HTML
+          </th>
+          <th bgcolor="#DDDDDD">
+            RESULT
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">range=<font color="black">'</font>10..20<font color="black">'</font><font color="black">,</font> name=<font color="black">'</font>mySeq<font color="black">'</font></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT --><!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">mySeq</font><font color="red"></font>}</b> <b>{<font color="green"><font color="red">$</font>mySeq</font>}</b> <b>{/<font color="blue">mySeq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->10 11 12 13 14 15 16 17 18 19 20<!-- END DEMO RESULT --></span></code>
+          </td>
+        </tr>
+      </table>
+      <p></p>
+    </td>
+  </tr>
+</table>
+<h3>
+  Names
+</h3>
+<table with="95%" border="0" align="center" style="margin-top: 0; margin-bottom: 0;" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <br>
+      <p>
+        Inside a nested sequence the value of an entry has many names.
+      </p>
+      <p></p>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th bgcolor="#DDDDDD">
+            HTML
+          </th>
+          <th bgcolor="#DDDDDD">
+            RESULT
+          </th>
+        </tr>
+        <tr>
+          <td style="vertical-align:top">
+            <!-- START DEMO SOURCE -->
+            <pre><code style="color: #000000"><b>{<font color="blue">seq </font><font color="red">range=<font color="black">'</font>40..50<font color="black">'</font><font color="black">,</font> one=<font color="black">'</font>sum<font color="black">'</font><font color="black">,</font> name=<font color="black">'</font>abc<font color="black">'</font><font color="black">,</font> store=<font color="black">'</font>klm<font color="black">'</font><font color="black">,</font> toData=<font color="black">'</font>xyz<font color="black">'</font></font>}</b><br>  <b>{<font color="green"><font color="red">$</font>seq</font>}</b> <b>{<font color="green"><font color="red">$</font>range</font>}</b> <b>{<font color="green"><font color="red">$</font>one</font>}</b> <b>{<font color="green"><font color="red">$</font>sum</font>}</b> <b>{<font color="green"><font color="red">$</font>abc</font>}</b> <b>{<font color="green"><font color="red">$</font>klm</font>}</b> <b>{<font color="green"><font color="red">$</font>xyz</font>}</b><br><b>{/<font color="blue">seq</font><font color="red"></font>}</b></code></pre><!-- END DEMO SOURCE -->
+          </td>
+          <td style="vertical-align:top">
+            <code><span style="color: #000000"><!-- START DEMO RESULT -->495 495 495 495 495 495 495<!-- END DEMO RESULT --></span></code>
           </td>
         </tr>
       </table>

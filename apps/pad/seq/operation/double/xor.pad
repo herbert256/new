@@ -12,7 +12,7 @@
   {$seq}
 {/seq}{/demo}
 
-{demo}{seq get='one', xor='two'}
+{demo}{seq one, xor='two'}
   {$seq}
 {/seq}{/demo}
 

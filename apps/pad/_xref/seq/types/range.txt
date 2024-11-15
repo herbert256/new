@@ -1,3 +1,6 @@
+lvl_occ/4
+miscellaneous/filter
+miscellaneous/level_and_occurrence_variables
 seq/actions/double/intersection
 seq/actions/double/splice
 seq/actions/single/first
@@ -50,11 +53,10 @@ seq/specials/first_last_vs_shift_pop
 seq/specials/increment
 seq/specials/intersection
 seq/specials/loop_source
-seq/specials/names
 seq/specials/other
 seq/specials/print
 seq/specials/random
-seq/specials/random2
+seq/specials/random_vs_shuffle
 seq/specials/slice_splice
 seq/specials/splice
 seq/store/actions/splice
@@ -105,4 +107,7 @@ seq/store/operations/strong
 seq/store/operations/sylvester
 seq/store/operations/tetrahedral
 seq/store/operations/triangular
-test
+tableFun/fun_5_a
+tableFun/fun_5_b
+vars/at/3
+walk/1

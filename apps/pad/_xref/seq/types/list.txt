@@ -15,4 +15,3 @@ seq/store/actions/merge
 seq/store/actions/onlyNow
 seq/store/actions/onlyStore
 seq/store/actions/prepend
-test

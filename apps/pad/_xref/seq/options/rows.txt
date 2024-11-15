@@ -145,6 +145,7 @@ seq/operation/single/tetrahedral
 seq/operation/single/triangular
 seq/operation/single/xnor
 seq/operation/single/xor
+seq/specials/arithmetic
 seq/specials/dedup
 seq/specials/eval
 seq/specials/even_odd
@@ -156,3 +157,4 @@ seq/specials/other
 seq/specials/prime_or_not
 seq/specials/random
 seq/specials/step_multiple
+test

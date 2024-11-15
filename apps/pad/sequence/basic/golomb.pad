@@ -1,7 +1,0 @@
-{table}
-
-{demo}{sequence 15, golomb}
-  {$sequence}
-{/sequence}{/demo}
-
-{/table}

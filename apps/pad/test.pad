@@ -1,4 +1,1 @@
-<hr> {seq '11..20'} {$seq} {/seq}
-<hr> {seq 'a;b;c'}  {$seq} {/seq}
-<hr> {seq 30}       {$seq} {/seq}
-<hr> {seq}          {$seq} {/seq}
+{golomb rows=10}  {$golomb} {/golomb}{

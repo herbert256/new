@@ -21,7 +21,7 @@
 {/block}
 
 <p> 
-{sequence '2..7', name='xxx'}
+{seq '2..7', name='xxx'}
   {example 'lvl_occ/{xxx}', skipNames{notFirst},skipOpen,skipHeader{/notFirst}{notLast},skipClose{/notLast}}
-{/sequence}
+{/seq}
 </p>

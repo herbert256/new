@@ -1,4 +1,0 @@
-sequence/basic/or
-sequence/operation/double/or
-sequence/operation/single/or
-sequence/specials/logic

@@ -19,7 +19,6 @@
     if ( ! isset ( $_REQUEST['padInclude']  ) ) return;
  
     if ( $dir1 == 'seq'                           ) return padInfoXappGo ( '_xref', $dir1, $dir2, $dir3 );
-    if ( $dir1 == 'sequence'                      ) return padInfoXappGo ( '_xref', $dir1, $dir2, $dir3 );
     if ( $dir1 == 'tag'        and $dir2 <> 'pad' ) return padInfoXappGo ( '_xref', $dir1, $dir2, $dir3 );
     if ( $dir1 == 'functions'  and $dir2 <> 'pad' ) return padInfoXappGo ( '_xref', $dir1, $dir2, $dir3 );
 

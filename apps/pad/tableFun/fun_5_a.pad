@@ -1,9 +1,9 @@
 <table border='1'>
-  {sequence '10..30', increment=10}
+  {seq '10..30', increment=10}
     <tr>
-      {sequence '1..5'}
+      {seq '1..5'}
         {cell $-2 + $-1}
-      {/sequence}
+      {/seq}
     </tr>
-  {/sequence}
+  {/seq}
 </table>

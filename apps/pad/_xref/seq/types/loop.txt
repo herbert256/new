@@ -53,4 +53,3 @@ seq/specials/loop_source
 seq/specials/make
 seq/specials/oeis
 seq/specials/trim
-test

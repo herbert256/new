@@ -1,3 +1,0 @@
-sequence/basic/floor
-sequence/operation/double/floor
-sequence/operation/single/floor

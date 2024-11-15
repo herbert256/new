@@ -1,34 +1,35 @@
 {block}
-
-<p>The seq sub-system of PAD, many many ways to get a seq of numbers.</p>
-
+  <p>The sequence sub-system of PAD, many many ways to get a sequence of numbers.</p>
 {/block}
 
 <hr>
 
-<h3>Concepts</h2>
+
+<h3>Concepts</h3>
 
 {block}
 
 <p>There are 6 Sequence concepts
 
 <table border=1>
-<tr><td>seqs</td><td>Something that defines a seq list</td></tr>
-<tr><td>options</td><td>Options control aspects of a seq list</td></tr>
-<tr><td>store</td><td>A stored seq list</td></tr>
+<tr><td>sequences</td><td>Something that defines a sequence list</td></tr>
+<tr><td>options</td><td>Options control aspects of a sequence list</td></tr>
+<tr><td>store</td><td>A stored sequence list</td></tr>
 <tr><td>operations</td><td>A seq executed on a seqence list entry</td></tr>
-<tr><td>actions</td><td>An operation executed on a seq list</td></tr>
-<tr><td>one</td><td>An action that reducces a seq list to a single value</td></tr>
+<tr><td>actions</td><td>An operation executed on a sequence list</td></tr>
+<tr><td>ones</td><td>An action that reduces a sequence list to a single value</td></tr>
 </table>
 
 {/block}
 
-<h3>Sequence</h2>
+
+
+<h3>Sequence</h3>
 
 {block}
 
-A seq defines a list of items that are together a seq list.<br>
-in below 3 examples range/even/prime are seqs.
+A seq defines a list of items that are together a sequence list.<br>
+in below 3 examples range/even/prime are sequences.
 
 {table}
 {demo}{seq range='20..30'} {$range} {/seq}{/demo}
@@ -38,11 +39,12 @@ in below 3 examples range/even/prime are seqs.
 
 {/block}
 
-<h3>Options</h2>
+
+<h3>Options</h3>
 
 {block}
 
-Options control aspects of a seq list, <br>
+Options control aspects of a sequence list, <br>
 in below 2 examples from/to/rows/random/max are options.
 
 {table}
@@ -56,11 +58,13 @@ in below 2 examples from/to/rows/random/max are options.
 
 {/block}
 
-<h3>Stores</h2>
+
+
+<h3>Stores</h3>
 
 {block}
 
-Stores are stored seq lists in from below example, mySeq is a store.
+Stores are stored sequence lists in from below example, mySeq is a store.
 
 {table}
 {demo}{seq range='20..30', store='mySeq'} {/demo}
@@ -71,11 +75,13 @@ Stores are stored seq lists in from below example, mySeq is a store.
 
 {/block}
 
-<h3>Operations</h2>
+
+
+<h3>Operations</h3>
 
 {block}
 
-Operations are a seq that is executed on a seq list entry when building the list<br>
+Operations are a seq that is executed on a sequence list entry when building the list<br>
 in below 2 examples even/add are operations.
 
 {table}
@@ -90,11 +96,13 @@ in below 2 examples even/add are operations.
 
 {/block}
 
-<h3>Actions</h2>
+
+
+<h3>Actions</h3>
 
 {block}
 
-Actions operate on a seq list after the list is build,<br>
+Actions operate on a sequence list after the list is build,<br>
 in below 2 examples shuffle/reverse are actions.
 
 {table}
@@ -109,11 +117,13 @@ in below 2 examples shuffle/reverse are actions.
 
 {/block}
 
-<h3>Ones</h2>
+
+
+<h3>Ones</h3>
 
 {block}
 
-Executing a 'one' on a seq list will reduce the seq list to a single value,<br>
+Executing a 'one' on a sequence list will reduce the sequence list to a single value,<br>
 in from below 2 examples, first/sum are ones.
 
 {table}
@@ -126,7 +136,11 @@ in from below 2 examples, first/sum are ones.
 {/seq}{/demo}
 {/table}
 
-{/block}<h3>Options</h2><br>{block}
+{/block}
+
+
+
+<h3>Options</h3>{block}
 
 <br><p>operations/actions/ones can be added as options to a seq tag
 
@@ -150,14 +164,39 @@ in from below 2 examples, first/sum are ones.
 
 {/table}
 
-{/block}<h3>Parameters</h2><br>{block}
+{/block}
+
+
+
+<h3>Option with parameter</h3>{block}
+
+<br><p>when an operation/action/one, that is used as an option, has a parameter<br>
+use a '|' to give the parameter.
+
+{table}{demo}
+
+{seq '10..20', name='mySeq'}
+
+{/demo}{demo}
+
+{seq mySeq, operation='multiply|10'} {$seq} {/seq}
+
+{/demo}
+
+{/table}
+
+{/block}
+
+
+
+<h3>Parameters</h3>{block}
 
 <br><p>operation/actions/ones can be added as a parameter to a seq tag,<br>
 but naming conflicts are possible and then above option way must be used.
 
 {table}{demo}
 
-{loop from=10, to=20, name='mySeq'}
+{seq '10..20', name='mySeq'}
 
 {/demo}{demo}
 
@@ -175,37 +214,71 @@ but naming conflicts are possible and then above option way must be used.
 
 {/table}
 
-{/block}<h3>Chain</h2><br>{block}
+{/block}
+
+
+
+<h3>Chain</h3>{block}
 
 <br><p>operation/actions/ones can be used in a chain.
 
 {table}{demo}
 
-{loop from=10, to=20, name='mySeq'}
-
-{/demo}{demo}
-
-{seq mySeq, even, multiply=10, shuffle} {$seq} {/seq}
-
-{/demo}
-
-{/table}
-
-{/block}<h3>Option with parameter</h2><br>{block}
-
-<br><p>when an operation/action/one, that is used as an option, has a parameter<br>
-use a '|' to give the parameter.
-
-{table}{demo}
-
-{loop from=10, to=20, name='mySeq'}
-
-{/demo}{demo}
-
-{seq mySeq, operation='multiply|10'} {$seq} {/seq}
+{seq '10..20', even, multiply=10, shuffle, add=2} {$seq} {/seq}
 
 {/demo}
 
 {/table}
 
 {/block}
+
+
+
+<h3>Shortcuts</h3>
+
+{block}
+
+  <br><p>Shortcuts for the loop/list/range sequences
+
+  {table}
+    {demo}{seq loop, rows=10}  {$seq} {/seq}{/demo}
+    {demo}{seq list='a;b;c'}   {$seq} {/seq}{/demo}
+    {demo}{seq range='11..20'} {$seq} {/seq}{/demo}
+    {demo}{seq 10}       {$seq} {/seq}{/demo}
+    {demo}{seq 'a;b;c'}  {$seq} {/seq}{/demo}
+    {demo}{seq '11..20'} {$seq} {/seq}{/demo}
+  {/table}
+
+  <br><p>Shortcuts for sequences
+
+  {table}
+    {demo}{golomb rows=10}  {$golomb} {/golomb}{/demo}
+    {demo}{prime  rows=10}  {$prime}  {/prime}{/demo}
+  {/table}
+
+  <br><p>Shortcuts for stores
+
+  {table}
+    {demo}{seq range='10..20', name='mySeq'}  {/demo}
+    {demo}{mySeq} {$mySeq} {/mySeq}{/demo}
+  {/table}
+
+{/block}
+
+
+<h3>Names</h3>
+
+{block}
+
+  <br><p>Inside a nested sequence the value of an entry has many names.
+
+{table}
+
+{demo}{seq range='40..50', one='sum', name='abc', store='klm', toData='xyz'}
+  {$seq} {$range} {$one} {$sum} {$abc} {$klm} {$xyz}
+{/seq}{/demo}
+
+{/table}
+
+{/block}
+

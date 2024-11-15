@@ -1,5 +1,8 @@
 <?php
 
+  if     ( $padType [$pad] == 'seq'   )  return include PAD . 'seq/inits/short/seq.php';
+  elseif ( $padType [$pad] == 'store' )  return include PAD . 'seq/inits/short/store.php';
+
   if     ( is_numeric ( $padParm       ) ) return include PAD . 'seq/inits/seq/integer.php';
   elseif ( strpos     ( $padParm, '..' ) ) return include PAD . 'seq/inits/seq/range.php';
   elseif ( strpos     ( $padParm, ';'  ) ) return include PAD . 'seq/inits/seq/list.php';

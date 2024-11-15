@@ -1,3 +1,6 @@
+lvl_occ/4
+miscellaneous/filter
+miscellaneous/level_and_occurrence_variables
 seq/actions/double/append
 seq/actions/double/combine
 seq/actions/double/difference
@@ -260,13 +263,12 @@ seq/specials/loop
 seq/specials/loop_source
 seq/specials/make
 seq/specials/named
-seq/specials/names
 seq/specials/oeis
 seq/specials/other
 seq/specials/prime_or_not
 seq/specials/print
 seq/specials/random
-seq/specials/random2
+seq/specials/random_vs_shuffle
 seq/specials/slice_splice
 seq/specials/splice
 seq/specials/step_multiple
@@ -326,4 +328,7 @@ seq/store/operations/strong
 seq/store/operations/sylvester
 seq/store/operations/tetrahedral
 seq/store/operations/triangular
-test
+tableFun/fun_5_a
+tableFun/fun_5_b
+vars/at/3
+walk/1

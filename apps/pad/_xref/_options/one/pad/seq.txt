@@ -40,7 +40,6 @@ seq/operation/double/substract
 seq/operation/double/xnor
 seq/operation/double/xor
 seq/specials/double
-seq/specials/names
 seq/store/actions/append
 seq/store/actions/combine
 seq/store/actions/difference

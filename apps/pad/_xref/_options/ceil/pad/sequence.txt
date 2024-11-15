@@ -1,3 +1,0 @@
-sequence/basic/ceil
-sequence/operation/double/ceil
-sequence/operation/single/ceil

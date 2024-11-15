@@ -1,7 +1,0 @@
-{table}
-
-{demo}{sequence 15, gnomonic}
-  {$sequence}
-{/sequence}{/demo}
-
-{/table}

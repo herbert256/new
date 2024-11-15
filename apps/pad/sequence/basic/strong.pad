@@ -1,7 +1,0 @@
-{table}
-
-{demo}{sequence 15, strong}
-  {$sequence}
-{/sequence}{/demo}
-
-{/table}

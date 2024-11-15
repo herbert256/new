@@ -1,2 +1,2 @@
 seq/actions/single/sort
-seq/specials/random2
+seq/specials/random_vs_shuffle

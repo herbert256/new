@@ -1,7 +1,0 @@
-{table}
-
-{demo}{sequence 15, prime}
-  {$sequence}
-{/sequence}{/demo}
-
-{/table}

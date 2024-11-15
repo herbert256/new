@@ -2,7 +2,7 @@
 
 {demo}
 
-{sequence '25..100', name='myRange'} 
+{seq '25..100', name='myRange'} 
 
 {/demo}{demo}
 
