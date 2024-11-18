@@ -1,0 +1,48 @@
+<h1>ACE-BARS</h1>
+
+<p> The compact WIP-1 list shows differences in version number only. <br>
+<p> The WIP-2 list also looks at beta versions to find differences. <br>
+<p> The ALL list contains all bar files.
+
+{list}
+
+  <h2>{&key}</h2>
+
+  <table border=1 cellpadding=5 cellspacing=1>
+
+    <tr>
+
+      <th>ACE</th>
+      <th>BAR</th>
+    
+      {envs}
+        <th>{$envs|upper}</th>
+      {/envs}
+    
+    </tr>
+
+    {ace}
+
+      {bars}
+
+        <tr>
+
+          {first}
+            <td valign='top' rowspan={&bars:count}>{&ace:key}</td>
+          {/first}
+
+          <td>{&bars:key}</td>
+
+          {envs}
+            <td>{$$envs}</td>
+          {/envs}
+
+        </tr>
+     
+      {/bars}
+
+    {/ace}
+
+  </table>
+
+{/list}
